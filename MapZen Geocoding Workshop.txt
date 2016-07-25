@@ -1,0 +1,28 @@
+MapZen Geocoding Workshop
+
+[[future notes: Mapzen.js is developing to be a onestop hub of navigation and search including biking and walking directions]]
+
+https//:git.io/vK9Jp
+
+needs Mapzen.com/developers for generating an API key (~~30k requests/day)
+
+there is an 'autocomplete', stricter/hit-enter 'search', and a 'reverse' for returning addresses from points
+
+change that here
+var geocoder = L.Mapzen.geocoder('search-q78U1e7', {
+  autocomplete: false
+});
+geocoder.addTo(map);
+
+Finnicky piece: 
+
+var geocoder = L.Mapzen.geocoder('search-sJMDn6X', {autocomplete:false,
+	params: {
+    sources: 'osm',
+    'boundary.country': 'USA',
+    layers: 'address,venue'
+  }
+});
+geocoder.addTo(map);
+</script>
+-----Under layers ^^^ don't use a space after address, before venue, it'll break.
