@@ -1,0 +1,8 @@
+Satellite Imagery for OSM - Digital Globe
+James Sondag
+
+they take raw satellite imagery, break it up into 'net' size tiles, do crowd sourced tagging on area of interest (AOI)
+
+extraction of geodata - only do point features (no plans to do polygons)
+basic crowdsource on this is tomnod.com
+

@@ -2,7 +2,7 @@ MapZen Geocoding Workshop
 
 [[future notes: Mapzen.js is developing to be a onestop hub of navigation and search including biking and walking directions]]
 
-https//:git.io/vK9Jp
+https://git.io/vK9Jp
 
 needs Mapzen.com/developers for generating an API key (~~30k requests/day)
 

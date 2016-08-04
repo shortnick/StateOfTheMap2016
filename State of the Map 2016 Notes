@@ -1,0 +1,10 @@
+State of the Map 2016 Notes
+
+New things mentioned:
+HOT OSM - Humanitarian OpenStreetMap Team http://tasks.hotosm.org/about things like Missing Maps/MSF needing satellite imagery digitized
+
+Overpass Turbo - http://overpass-turbo.eu/#, http://wiki.openstreetmap.org/wiki/Overpass_turbo, http://wiki.openstreetmap.org/wiki/Overpass_API , http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide - is an online instantiation of the Overpass API, which is made for quickly/easily querying OSM data can search nodes, ways, and relations for names or tags, bounding boxes ok. Overpass Turbo is a quick  tester version	?should be easy to port selections into OSM editor?   Where normal OSM API is designed for editing, this is designed for reading/looking.
+
+Geofabrik - http://www.geofabrik.de, http://tools.geofabrik.de/, http://learnosm.org/en/osm-data/geofabrik-and-hot-export, a german company that hosts OSM data, and does some preprocessing (various continents, regions, subregions, also in .shp's).
+
+SRTM Tile Grabber - http://dwtkns.com/srtm/,  Shuttle Radar Topography Mission
